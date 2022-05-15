@@ -3,7 +3,66 @@
     padding: 0;
 }
 
+.contenedor {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+
+    grid-template-areas:"header header header"
+                        "main main main" 
+                        "footer footer footer";
+}
+
+.contenedor .header {
+    grid-area: header;
+
+}
+.header {
+    background-color: #cac0c2;
+    display: flex;
+    align-items: center;
+}
 .logo{
     width: 200px;
     height: 100px;
+    margin: 20px;
 }
+
+h1{
+    font-size: 40px;
+
+}
+
+.contenedor .main {
+    grid-area: main;
+}
+
+
+
+
+.contenedor .footer {
+    background-color: rgb(208, 208, 208);
+    grid-area: footer;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.footer ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer .foo1 {
+    padding-left: 40px;
+
+}
+
+.footer .foo3 {
+    padding-right: 40px;
+}
+

@@ -41,15 +41,23 @@ h1{
     grid-area: main;
 }
 
+.main img{
+    width: 200px;
+    height: 140px;
+}
 
+.main img{
+    width: 200px;
+    height: 130px;
+}
 
 
 .contenedor .footer {
-    background-color: rgb(208, 208, 208);
+    background-color: rgb(147, 128, 128);
     grid-area: footer;
     text-align: center;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;  
 }
 
 .footer ul li{

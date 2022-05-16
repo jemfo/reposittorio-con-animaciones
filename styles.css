@@ -27,29 +27,37 @@
     align-items: center;
 }
 .logo{
-    width: 200px;
+    width: 180px;
     height: 100px;
     margin: 20px;
 }
 
 h1{
     font-size: 40px;
-
 }
 
 .contenedor .main {
     grid-area: main;
+    text-align: center;
+    background-color: black;
+    padding: 10px 10px;
 }
 
+.main img{
+    width: 200px;
+    height: 130px;
+}
 
-
+.main img:hover{
+    transform: scale(1.2);
+}
 
 .contenedor .footer {
-    background-color: rgb(208, 208, 208);
+    background-color: rgb(147, 128, 128);
     grid-area: footer;
     text-align: center;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;  
 }
 
 .footer{

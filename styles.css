@@ -34,8 +34,6 @@
 
 h1{
     font-size: 40px;
-    text-align: justify;
-
 }
 
 .contenedor .main {
@@ -50,6 +48,9 @@ h1{
     height: 130px;
 }
 
+.main img:hover{
+    transform: scale(1.2);
+}
 
 .contenedor .footer {
     background-color: rgb(147, 128, 128);

@@ -39,7 +39,7 @@ h1{
 .contenedor .main {
     grid-area: main;
     text-align: center;
-    background-color: black;
+    background-color: rgb(192, 139, 139);
     padding: 10px 10px;
 }
 
@@ -50,6 +50,13 @@ h1{
 
 .main img:hover{
     transform: scale(1.2);
+}
+
+.main .text{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+
 }
 
 .contenedor .footer {
@@ -63,6 +70,7 @@ h1{
 .footer{
     font-size: 25px;
     font-weight: bold;
+    padding: 30px;
 }
 
 .footer ul li{
